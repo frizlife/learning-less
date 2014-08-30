@@ -1,0 +1,3 @@
+html tags describe what you're writing
+link to CSS and external libraries in the <head> part of your page
+body is where content goes
