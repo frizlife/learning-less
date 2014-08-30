@@ -3,15 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <title>Less Lesson</title>
+<link rel="stylesheet/less" href="less/style.less" type="text/less" >
 </head>
 <body>
 <header>
-<h1 class="title">Less-CSS</h1>
+<h2 class="title">Less-CSS</h2>
 </header>
 <aside>
 <nav>
 <a href="/link1">Link 1</a>
-<a href="/link1">Link 2</a>
+<h3><a href="/link1">Link 2 with H3</a></h3>
 <a href="/link1">Link 3</a>
 </nav>
 </aside>
@@ -22,10 +23,24 @@
 <content>
 <p>Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions and many other techniques that allow you to make CSS that is more maintainable, themable and extendable.</p>
 <p>Less runs inside Node, in the browser and inside Rhino. There are also many 3rd party tools that allow you to compile your files and watch for changes.</p>
+<h1>trying out this header!</h1>
 </content>
 </article>
 <footer>
 &copy; 2014 - cool people
 </footer>
 </body>
+<script>
+less = {
+env: "development",
+async: false,
+fileAsync: false,
+poll: 1000,
+functions: {},
+dumpLineNumbers: "comments",
+relativeUrls: false,
+rootpath: ":/a.com/"
+};
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.4/less.min.js"></script>
 </html>
